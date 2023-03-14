@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TimeslotBuyer</string>
+    <string name="tvTopic">Available Time Slots</string>
+    <string name="tvDate1">02 May 2023</string>
+    <string name="tvDate2">12 May 2023</string>
+    <string name="tvDate3">22 May 2023</string>
+    <string name="btnConfirm">CONFIRM ORDER PICKUP DATE</string>
+
+    <string-array name="timeSlot1">
+        <item>Select a time slot</item>
+        <item>8.00 - 10.00 am</item>
+        <item>4.00 - 6.00 pm</item>
+    </string-array>
+
+    <string-array name="timeSlot2">
+        <item>Select a time slot</item>
+        <item>6.00 - 8.00 am</item>
+    </string-array>
+
+    <string-array name="timeSlot3">
+        <item>Select a time slot</item>
+        <item>8.00 - 10.00 am</item>
+        <item>3.00 - 5.00 pm</item>
+    </string-array>
+</resources>

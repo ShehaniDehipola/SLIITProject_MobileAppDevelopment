@@ -1,4 +1,5 @@
 <resources>
+    //time_slot_buyer
     <string name="app_name">TimeslotBuyer</string>
     <string name="tvTopic">Available Time Slots</string>
     <string name="tvDate1">02 May 2023</string>
@@ -22,4 +23,14 @@
         <item>8.00 - 10.00 am</item>
         <item>3.00 - 5.00 pm</item>
     </string-array>
+
+    //time_slot_owner
+    <string name="app_name1">TimeslotOwner</string>
+    <string name="mainTopic">Select Date and Time</string>
+    <string name="tvDate">Mark a date</string>
+    <string name="tvTime">Add a time slot</string>
+    <string name="btnAdd">ADD</string>
+    <string name="btnView">VIEW</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnDelete">DELETE</string>
 </resources>

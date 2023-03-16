@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/design_default_color_background"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/txtTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/mainTopic"
+            android:textColor="@color/txtMainTopic"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDateTopic"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/tvDate"
+            android:textColor="@color/txtSubTopic1"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_calen">
+
+            <CalendarView
+                android:layout_width="300dp"
+                android:layout_height="300dp">
+
+            </CalendarView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtTimeTopic"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/tvTime"
+            android:textColor="@color/txtSubTopic1"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edtTime1"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="50dp"
+                android:ems="10"
+                android:inputType="time"
+                android:text="8.00 - 10.00 am" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/actBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:clickable="true"
+                android:contentDescription="delete"
+                app:backgroundTint="@color/button"
+                app:fabCustomSize="10sp"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edtTime2"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="50dp"
+                android:ems="10"
+                android:hint="@string/btnAdd"
+                android:inputType="time"
+                android:text="2.00 - 4.00 pm" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="delete"
+                app:backgroundTint="@color/button"
+                app:fabCustomSize="10sp"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="18sp"
+                android:backgroundTint="@color/button"
+                android:text="@string/btnAdd"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/btnView"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="18sp"
+                android:backgroundTint="@color/button"
+                android:text="@string/btnView"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="18sp"
+                android:backgroundTint="@color/button"
+                android:text="@string/btnUpdate"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
